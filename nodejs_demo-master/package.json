@@ -1,0 +1,19 @@
+{
+  "name": "nodejs_demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "DEBUG=nodejs_demo node app.js"
+  },
+  "dependencies": {
+    "express": "4.9.x",
+    "body-parser": "1.8.x",
+    "morgan": "1.3.x",
+    "debug": "2.0.x",
+    "ejs": "0.8.x"
+  },
+  "devDependencies": {
+    "grunt": "0.4.x",
+    "grunt-uncss": "0.3.x"
+  }
+}

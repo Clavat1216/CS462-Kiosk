@@ -1,0 +1,24 @@
+<html>
+        <head>
+                <script type="text/javascript" src="javascript/jquery.js"></script>
+                <script type="text/javascript" src="javascript/frontPage.js"></script>
+                <link rel="stylesheet" href="stylesheets/style.css" />
+                <link rel="stylesheet" href="stylesheets/splashpage.css" />
+        </head>
+        <body>
+                <div id="imageHolder">
+                        <img id="logo" src="./imgs/logo.png"></img>
+                </div>
+                <div id="options">
+                        <a class="btn" href="./kioskPage.html">Click Here to Begin</a>
+                </div>
+                <div id="gearHolder">
+                        <img id="gear" src="./imgs/gear.png" onclick=displayLogin()></img>
+                        <form method="post" name="login" id="login" action="/users/login">
+                        Username:<input type="text" name="username" required>
+                        Password:<input type="password" name="password" required>
+                        <input type="submit" value="Login">
+                        </form>
+                </div>
+        </body>
+</html>
