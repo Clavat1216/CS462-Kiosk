@@ -47,8 +47,8 @@
 		"async": "~0.9.0",
 		"nodemailer": "~1.3.0",
 		"chalk": "~0.5",
-        "static-favicon":"~2.0.0",
-        "websocket.io": "0.2.1"
+		"websocket.io": "0.2.1",
+		"static-favicon":"~2.0.0-alpha"
 	},
 	"devDependencies": {
 		"supertest": "~0.14.0",

@@ -1,0 +1,90 @@
+Adding places to db:
+-- Send POST request
+http://localhost:5000/model/add
+
+-- Example body for each type of place
+Government Building:
+{
+	"place": {
+                "name": "Utah County Planning & Zoning",
+                "logo": "/imgs/placeholder-logo.png",
+                "address": "51 S University Ave, Provo, UT 84601",
+                "hours": "9-5",
+                "website": "utahcounty.gov",
+                "govBDept": "Planning & Zoning",
+                "govBServices": [
+     				"Planning",
+     				"Zoning"
+    			],
+                "coordinates": {
+                    "longitude": -111.657964,
+                    "latitude": 40.232845 
+                }
+   			},
+	"type": "GovB"
+}
+
+Restaurant:
+{
+	"place": {
+                "name": "Los Hermanos",
+                "logo": "/imgs/placeholder-logo.png",
+                "address": "71 E Center St. Provo, UT, 84601",
+                "hours": "12-10",
+                "website": "loshermanosutah.com",
+                "menu": "loshermanosutah.com/menu.html",
+                "type": "Mexican",
+                "price": 2,
+                "yelpReview": "yelp.com",
+                "coordinates": {
+                    "longitude":  -111.657249,
+                    "latitude": 40.233932
+                }
+   			},
+	"type": "Restaurant"
+}
+
+Store:
+{
+	"place": {
+                "name": "Hookah Collection",
+                "logo": "/imgs/placeholder-logo.png",
+                "address": "198 Web Center Street Provo, UT, 84601",
+                "hours": "9-5",
+                "website": "none",
+                "type": "GiftShop",
+                "inventory": [
+                    {
+                        "item": "hookah1",
+                        "quantity": 2
+     				},
+                    {
+                        "item": "hookah2",
+                        "quantity": 1
+     				}
+    			],
+                "coordinates": {
+                    "longitude": -111.662065,
+                    "latitude": 40.233960
+                }
+   			},
+	"type": "Store"
+}
+
+Location:
+{
+	"place": {
+                "name": "Acaydia School of Aesthetics",
+                "logo": "/imgs/placeholder-logo.png",
+                "address": "86 N University Ave, Provo, UT 84601",
+                "hours": "9-5",
+                "website": "acaydia.com",
+                "type": "School",
+                "activities": "Learning, appearance",
+                "coordinates": {
+                    "longitude": -111.658045,
+                    "latitude": 40.234761
+                }
+   			},
+	"type": "Location"
+}
