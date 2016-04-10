@@ -8,13 +8,18 @@
     <link rel="stylesheet" href="stylesheets/kioskmap.css" />
     <script type="text/javascript" src="javascript/jquery.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js"></script>
-        <script type="text/javascript" src="javascript/menuBar.js"></script>
+    <script type="text/javascript" src="javascript/menuBar.js"></script>
     <script type="text/javascript" src="javascript/Places.js"></script>
     <script type="text/javascript" src="javascript/mapPage.js"></script>
     <script type="text/javascript" src="javascript/JSONModel.js"></script>
     <script type="text/javascript" src="javascript/BarMapUtil.js"></script>
-    
+    <script src="/socket.io/socket.io.js"></script>
+
 </head>
+
+<script>
+    var socket = io('http://localhost:5000');
+</script>
 
 <body>
     <div class="mainContainer">

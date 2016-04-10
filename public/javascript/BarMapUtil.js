@@ -16,6 +16,8 @@ function RemoveMarkers() {
 function markerClick(name, type, index) {
     //TODO
     // spotClicker(type, index);
+    // alert("Clicked on " + name);
+    socket.emit('marker-click', { name: name, type: type, index: index });
 }
 
 function drawRoute(place) {
