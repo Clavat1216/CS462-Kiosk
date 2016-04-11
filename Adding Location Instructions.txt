@@ -98,7 +98,7 @@ Store:
             "latitude": 40.2340673
         }
     },
-    "type": "BookStore"
+    "type": "Store"
 }
 
 
