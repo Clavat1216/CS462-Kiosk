@@ -49,26 +49,26 @@ Restaurant:
 Store:
 {
 	"place": {
-                "name": "Hookah Collection",
+                "name": "Mullett-Hoover Jewelry and Trophies",
                 "logo": "/imgs/placeholder-logo.png",
-                "address": "198 Web Center Street Provo, UT, 84601",
+                "address": "184 W Center Street Provo, UT, 84601",
                 "hours": "9-5",
                 "website": "none",
-                "yelpId": "",
+                "yelpId": "mullett-hoover-jewelry-and-trophies-provo",
                 "type": "GiftShop",
                 "inventory": [
                     {
-                        "item": "hookah1",
+                        "item": "Diamond Ring",
                         "quantity": 2
      				},
                     {
-                        "item": "hookah2",
+                        "item": "Gold Necklace",
                         "quantity": 1
      				}
     			],
                 "coordinates": {
-                    "longitude": -111.662065,
-                    "latitude": 40.233960
+                    "longitude": -111.6623951,
+                    "latitude": 40.2340897
                 }
    			},
 	"type": "Store"
@@ -83,7 +83,7 @@ Location:
                 "hours": "9-5",
                 "website": "acaydia.com",
                 "type": "School",
-                "yelpId": "",
+                "yelpId": "acaydia-spa-and-school-of-aesthetics-provo-4",
                 "activities": "Learning, appearance",
                 "coordinates": {
                     "longitude": -111.658045,
