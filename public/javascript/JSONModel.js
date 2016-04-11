@@ -7,6 +7,7 @@ testModel = {
                 "address": "51 S University Ave, Provo, UT 84601",
                 "hours": "9-5",
                 "website": "utahcounty.gov",
+                "yelpId": "",
                 "govBDept": "Planning & Zoning",
                 "govBServices": [
      				"Planning",
@@ -23,6 +24,7 @@ testModel = {
                 "address": "51 S University Ave, Provo, UT 84601",
                 "hours": "9-5",
                 "website": "utahcounty.gov",
+                "yelpId": "",
                 "govBDept": "Planning & Zoning",
                 "govBServices": [
      				"Planning",
@@ -41,6 +43,7 @@ testModel = {
                 "address": "71 E Center St. Provo, UT, 84601",
                 "hours": "12-10",
                 "website": "loshermanosutah.com",
+                "yelpId": "los-hermanos-provo",
                 "menu": "loshermanosutah.com/menu.html",
                 "type": "Mexican",
                 "price": 2,
@@ -53,25 +56,26 @@ testModel = {
   		],
         "Store": [
             {
-                "name": "Hookah Collection",
+                "name": "Pioneer Book",
                 "logo": "/imgs/placeholder-logo.png",
-                "address": "198 Web Center Street Provo, UT, 84601",
-                "hours": "9-5",
-                "website": "none",
-                "type": "GiftShop",
+                "address": "450 W Center St., Provo, UT 84601",
+                "hours": "10-7",
+                "website": "www.pioneerbook.com",
+                "yelpId": "pioneer-book-provo-2",
+                "type": "BookStore",
                 "inventory": [
                     {
-                        "item": "hookah1",
+                        "item": "The Book of Mormon",
                         "quantity": 2
      				},
                     {
-                        "item": "hookah2",
+                        "item": "The Golden Compass",
                         "quantity": 1
      				}
     			],
                 "coordinates": {
-                    "longitude": -111.662065,
-                    "latitude": 40.233960
+                    "longitude": -111.6687998,17,
+                    "latitude": 40.2340673
                 }
    			},
             {
@@ -80,6 +84,7 @@ testModel = {
                 "address": "20 North University Avenue Provo, UT 84601",
                 "hours": "10-6",
                 "website": "none",
+                "yelpId": "",
                 "type": "Optical",
                 "inventory": [],
                 "coordinates": {
