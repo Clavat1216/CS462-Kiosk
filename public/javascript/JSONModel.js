@@ -74,7 +74,7 @@ testModel = {
      				}
     			],
                 "coordinates": {
-                    "longitude": -111.6687998,17,
+                    "longitude": -111.6687998,
                     "latitude": 40.2340673
                 }
    			},
