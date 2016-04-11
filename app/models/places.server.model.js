@@ -34,6 +34,7 @@ function AbstractPlaceSchema() {
             trim: true,
             default: ''
         },
+        yelpId: String,
         coordinates: 
         {
             longitude: {

@@ -11,6 +11,15 @@ var passport = require('passport');
 var helmet = require('helmet');
 var flash = require('connect-flash');
 var config = require('./config/config');
+var yelp = require('node-yelp');
+var yelpClient = yelp.createClient({
+    oauth: {
+        "consumer_key": "XW2fSHikx3dpu3xyUDu1xg",
+        "consumer_secret": "Ddl-DFly_THGhYbhfHSeKNAFhGE",
+        "token": "vqnVGl5-Ky3oc-AiuUJuLvOtrFxCxY_P",
+        "token_secret": "6HoYLSZhfFXLMNm1ju9gStbsGU4"
+    }
+});
 
 // Bootstrap db connection
 var db = mongoose.connect('mongodb://localhost/mean-dev', function(err) {
@@ -87,8 +96,9 @@ io.on("connection", function(socket) {
     console.log("socket.io connection created");
 
     socket.on("marker-click", function(data) {
-        console.log(data);
-        socket.emit("yelp-response", {data: "Here"});
+        yelpClient.business(data.yelpId).then(function(data) {
+            socket.emit("yelp-response", {data: data});
+        });
     });
 });
 

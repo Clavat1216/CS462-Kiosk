@@ -3,7 +3,7 @@ function AddPlaceMarkers(places, typeOfPlace) {
     for (var index = 0; index < places.length; ++index) {
         var place = places[index];
         addMarker(typeOfPlace, place.coordinates.latitude, place.coordinates.longitude, place.name, true, (function () {
-            markerClick(place.name, typeOfPlace, index);}));
+            markerClick(place.name, place, typeOfPlace, index);}));
 
     }
 }
@@ -13,11 +13,8 @@ function RemoveMarkers() {
     createYouAreHereMarker();
 }
 
-function markerClick(name, type, index) {
-    //TODO
-    // spotClicker(type, index);
-    // alert("Clicked on " + name);
-    socket.emit('marker-click', { name: name, type: type, index: index });
+function markerClick(name, place, type, index) {
+    socket.emit('marker-click', { yelpId: place.yelpId });
 }
 
 function drawRoute(place) {

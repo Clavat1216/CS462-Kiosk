@@ -104,6 +104,7 @@ exports.addPlace = function(req, res){
 	place.address = req.address;
 	place.hours = req.address;
 	place.website = req.website;
+	place.yelpId = req.yelpId;
 	place.save(function(err){
 		if(err){
 			return res.status(400).send({

@@ -11,6 +11,7 @@ Government Building:
                 "address": "51 S University Ave, Provo, UT 84601",
                 "hours": "9-5",
                 "website": "utahcounty.gov",
+                "yelpId": "",
                 "govBDept": "Planning & Zoning",
                 "govBServices": [
      				"Planning",
@@ -34,6 +35,7 @@ Restaurant:
                 "website": "loshermanosutah.com",
                 "menu": "loshermanosutah.com/menu.html",
                 "type": "Mexican",
+                "yelpId": "los-hermanos-provo",
                 "price": 2,
                 "yelpReview": "yelp.com",
                 "coordinates": {
@@ -52,6 +54,7 @@ Store:
                 "address": "198 Web Center Street Provo, UT, 84601",
                 "hours": "9-5",
                 "website": "none",
+                "yelpId": "",
                 "type": "GiftShop",
                 "inventory": [
                     {
@@ -80,6 +83,7 @@ Location:
                 "hours": "9-5",
                 "website": "acaydia.com",
                 "type": "School",
+                "yelpId": "",
                 "activities": "Learning, appearance",
                 "coordinates": {
                     "longitude": -111.658045,
