@@ -28,21 +28,21 @@ Government Building:
 Restaurant:
 {
 	"place": {
-                "name": "Los Hermanos",
-                "logo": "/imgs/placeholder-logo.png",
-                "address": "71 E Center St. Provo, UT, 84601",
-                "hours": "12-10",
-                "website": "loshermanosutah.com",
-                "menu": "loshermanosutah.com/menu.html",
-                "type": "Mexican",
-                "yelpId": "los-hermanos-provo",
-                "price": 2,
-                "yelpReview": "yelp.com",
-                "coordinates": {
-                    "longitude":  -111.657249,
-                    "latitude": 40.233932
-                }
-   			},
+        "name": "Los Hermanos",
+        "logo": "/imgs/placeholder-logo.png",
+        "address": "71 E Center St. Provo, UT, 84601",
+        "hours": "12-10",
+        "website": "loshermanosutah.com",
+        "menu": "loshermanosutah.com/menu.html",
+        "type": "Mexican",
+        "yelpId": "los-hermanos-provo",
+        "price": 2,
+        "yelpReview": "yelp.com",
+        "coordinates": {
+            "longitude":  -111.657249,
+            "latitude": 40.233932
+        }
+	},
 	"type": "Restaurant"
 }
 
@@ -73,6 +73,35 @@ Store:
    			},
 	"type": "Store"
 }
+
+{
+    "place": {
+        "name": "Pioneer Book",
+        "logo": "/imgs/placeholder-logo.png",
+        "address": "450 W Center St., Provo, UT 84601",
+        "hours": "10-7",
+        "website": "www.pioneerbook.com",
+        "yelpId": "pioneer-book-provo-2",
+        "type": "BookStore",
+        "inventory": [
+            {
+                "item": "The Book of Mormon",
+                "quantity": 2
+            },
+            {
+                "item": "The Golden Compass",
+                "quantity": 1
+            }
+        ],
+        "coordinates": {
+            "longitude": -111.6687998,17,
+            "latitude": 40.2340673
+        }
+    },
+    "type": "BookStore"
+}
+
+
 
 Location:
 {
