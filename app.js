@@ -88,6 +88,7 @@ io.on("connection", function(socket) {
 
     socket.on("marker-click", function(data) {
         console.log(data);
+        socket.emit("yelp-response", {data: "Here"});
     });
 });
 

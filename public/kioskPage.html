@@ -19,6 +19,9 @@
 
 <script>
     var socket = io('http://localhost:5000');
+    socket.on("yelp-response", function(data) {
+        alert(JSON.stringify(data));
+    });
 </script>
 
 <body>
